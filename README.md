@@ -21,7 +21,7 @@ telescope.setup {
         history = {
             -- path: optional, the place where to save the history
             path = os.getenv('HOME') .. '/.cache/nvim/telescope_history',
-            -- include_cwd, options. If true, then the history will be
+            -- include_cwd, optional. If true, then the history will be
             -- saved / retrieved depending also on the directory in which
             -- telescope promnt was invoked
             include_cwd = true,
